@@ -10,9 +10,9 @@ import {
   nodejs,
   mongodb,
   git,
-  jobit,
-  carrent,
-  tripguide,
+  movix,
+  convertor,
+  task,
   threejs,
 } from "../assets";
 
