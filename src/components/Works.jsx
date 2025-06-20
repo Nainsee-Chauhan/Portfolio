@@ -24,9 +24,9 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[340px] w-full'
       >
-        <div className='relative w-[250px] h-[230px]'>
+        <div className='relative sm:w-[300px] w-[300px] h-[230px]'>
           <img
             src={image}
             alt='project_image'
@@ -72,7 +72,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -86,7 +86,7 @@ const Works = () => {
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
         </motion.p>
-      </div>
+      </div> 
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (

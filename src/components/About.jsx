@@ -31,7 +31,7 @@ const ServiceCard=({index, title, icon})=>{
              </h3>
            </div>
         </motion.div>
-
+ 
       </Tilt>
     )
 }
@@ -48,7 +48,7 @@ const About = () => {
       <motion.p 
         variant={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a skilled software developer with experience in TypeScript and
+        I'm a skilled web developer with experience in
         JavaScript, and expertise in frameworks like React, Node.js, and
         Three.js. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
