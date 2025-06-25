@@ -19,7 +19,7 @@ const Navbar = () => {
             window.scrollTo(0,0)
           }}
           >
-            <img src={"public/logo-n.png"} alt="logo" className='w-10 h-10 object-contain'/>
+            <img src={"/logo-n.png"} alt="logo" className='w-10 h-10 object-contain'/>
             <p className='text-white text-[18px] font-bold cursor-pointer flex'>Nainsee &nbsp;<span className='sm:block hidden'>| &nbsp; PORTFOLIO</span></p>
           </Link>
           <ul className='list-none hidden sm:flex flex-row gap-10'>
